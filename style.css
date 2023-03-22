@@ -1,0 +1,21 @@
+h3
+{
+    font-size:25px !important;
+}
+
+.btn-success:hover
+{
+    background-color: magenta;
+}
+
+canvas {
+    animation-name: clownnose;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes clownnose {
+from {box-shadow:1px 1px 38px aqua;}
+to{box-shadow: 1px 1px 38px rgb(240, 179, 240);}
+
+}
